@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -p "Enter your marks: " marks
+
+if [ $marks -ge 90 ]; then
+    echo "Distinction" elif [ $marks -ge 75 ]; then
+    echo "First Class"
+elif [ $marks -ge 50 ]; then
+    echo "Second Class"
+else
+    echo "Fail"
+fi
